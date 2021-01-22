@@ -1,0 +1,15 @@
+EDITOR="code -r -w"
+
+ggm() { git add --all && git commit -m "$*"; }
+alias ggs="git add --all && git commit --amend --no-edit"
+alias ggss="git add --all && git commit --amend"
+alias ggr="git fetch && git rebase origin/master"
+alias ggri="git fetch && git rebase -i origin/master"
+alias ggp="git push"
+alias ggpf="git push --force-with-lease"
+alias ggrhh="git reset --hard HEAD"
+alias ggl="git log --oneline"
+alias ggd="git diff origin/master"
+alias ggdn="git diff --name-only origin/master"
+alias ggk="git checkout -"
+alias ggfc="git fetch && git checkout "
