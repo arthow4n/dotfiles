@@ -1,16 +1,16 @@
 [core]
-	autocrlf = false
-	eol = lf
-	editor = code -r -w
+    autocrlf = false
+    eol = lf
+    editor = code -r -w
 [user]
-	email = 13860646+arthow4n@users.noreply.github.com
-	name = Sheng-Han (Aysh) Su
+    email = 13860646+arthow4n@users.noreply.github.com
+    name = Sheng-Han (Aysh) Su
 [merge]
-	conflictstyle = diff3
-  tool = vscode
+    conflictstyle = diff3
+    tool = vscode
 [mergetool "vscode"]
-  cmd = code -w $MERGED
+    cmd = code -w $MERGED
 [diff]
-  tool = vscode
+    tool = vscode
 [difftool "vscode"]
-  cmd = code -w --diff $LOCAL $REMOTE
+    cmd = code -w --diff $LOCAL $REMOTE
